@@ -1,3 +1,4 @@
+'use strict';
 const $tooltip = document.querySelectorAll('.tooltip');
 $tooltip.forEach(box => {
     box.addEventListener('mouseover',function() {
